@@ -1,0 +1,5 @@
+((name jsontrip_actionLabel_100)
+ (descr
+  ("Benchmark of ``jsontrip actionLabel.json'' avg. over 100 iterations."))
+ (cmd (jsontrip %{share}%/json-bench-data/actionLabel.json)) (env ()) (nb_iter 100) (speed Fast)
+ (measures ((Perf ""))))
