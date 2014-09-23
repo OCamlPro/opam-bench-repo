@@ -3,5 +3,5 @@ name: "json-bench-data"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-depends: [ "operf-macro" ]
+depends: [ ]
 

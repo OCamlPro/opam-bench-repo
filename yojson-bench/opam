@@ -3,7 +3,7 @@ name: "yojson-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-depends: [ "yojson" "operf-macro" "json-bench-data"]
+depends: [ "yojson" "json-bench-data"]
 substs: [
   "ydump_actionLabel_100.bench"
   "ydump_sample_10.bench"
