@@ -1,4 +1,5 @@
 ((name jsontrip_sample_10)
  (descr ("Benchmark of ``jsontrip sample.json'' avg. over 10 iterations."))
- (cmd (%{bin}%/jsontrip %{share}%/json-bench-data/sample.json)) (env ()) (nb_iter 10) (speed Fast)
+ (cmd (%{bin}%/jsontrip %{share}%/json-bench-data/sample.json))
+ (env ()) (nb_iter 10) (speed Fast) (timeout 600)
  (topics ((Libperf Cycles))))
