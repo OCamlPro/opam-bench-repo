@@ -1,0 +1,8 @@
+bin: [
+  "contrast" {"sauvola-contrast-bench"}
+]
+
+share: [
+  "sauvola.bench"
+  "example2.jpg"
+]
