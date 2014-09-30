@@ -1,0 +1,4 @@
+share : [
+  "frama-c.bench"
+  "t.c"
+]

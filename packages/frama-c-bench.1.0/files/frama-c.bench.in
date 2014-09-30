@@ -1,0 +1,7 @@
+((name frama-c)
+ (descr
+  ("Benchmark of ``frama-c -slevel 1000000000 -no-results -no-val-show-progress t.c -val'' avg. over 1 iterations."))
+ (cmd
+  (%{bin}%/frama-c -slevel 1000000000 -no-results -no-val-show-progress %{frama-c-bench:share}%/t.c -val))
+ (cmd_check ()) (env ()) (nb_iter 1) (speed Fast) (timeout 600)
+ (topics ((Libperf Cycles))))
