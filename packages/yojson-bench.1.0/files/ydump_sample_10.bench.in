@@ -1,5 +1,5 @@
 ((name "ydump_sample_10")
  (descr ("Benchmark of ``ydump -c sample.json'' avg. over 10 iterations."))
- (cmd (%{bin}%/ydump -c %{share}%/json-bench-data/sample.json)) (cmd_check ())
+ (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/sample.json)) (cmd_check ())
  (env ()) (nb_iter 10) (speed Fast) (timeout 600)
  (topics ((Libperf Cycles))))
