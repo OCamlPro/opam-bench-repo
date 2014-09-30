@@ -1,6 +1,6 @@
 ((name "ydump_actionLabel_100")
  (descr
   ("Benchmark of ``ydump -c actionLabel.json'' avg. over 100 iterations."))
- (cmd (%{bin}%/ydump -c %{share}%/json-bench-data/actionLabel.json))
+ (cmd (%{bin}%/ydump -c %{share}%/json-bench-data/actionLabel.json)) (cmd_check ())
  (env ()) (nb_iter 100) (speed Fast) (timeout 600)
  (topics ((Libperf Cycles))))

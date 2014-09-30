@@ -1,6 +1,6 @@
 ((name jsontrip_actionLabel_100)
  (descr
   ("Benchmark of ``jsontrip actionLabel.json'' avg. over 100 iterations."))
- (cmd (%{bin}%/jsontrip %{share}%/json-bench-data/actionLabel.json))
+ (cmd (%{bin}%/jsontrip %{share}%/json-bench-data/actionLabel.json)) (cmd_check ())
  (env ()) (nb_iter 100) (speed Fast) (timeout 600)
  (topics ((Libperf Cycles))))
