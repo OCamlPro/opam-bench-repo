@@ -5,6 +5,6 @@ version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
 depends: [ "jsonm" "json-bench-data"]
 substs: [
-  "jsontrip_actionLabel_100.bench"
-  "jsontrip_sample_10.bench"
+  "jsontrip_actionLabel.bench"
+  "jsontrip_sample.bench"
 ]

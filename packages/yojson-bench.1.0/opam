@@ -5,6 +5,6 @@ version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
 depends: [ "yojson" "json-bench-data"]
 substs: [
-  "ydump_actionLabel_100.bench"
-  "ydump_sample_10.bench"
+  "ydump_actionLabel.bench"
+  "ydump_sample.bench"
 ]

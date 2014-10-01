@@ -1,4 +1,4 @@
 share: [
-  "jsontrip_actionLabel_100.bench"
-  "jsontrip_sample_10.bench"
+  "jsontrip_actionLabel.bench"
+  "jsontrip_sample.bench"
 ]
