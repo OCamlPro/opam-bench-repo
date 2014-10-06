@@ -3,7 +3,7 @@ name: "alt-ergo-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
-build: [ "ocaml gen.ml" ]
+build: [ "ocaml" "gen.ml" ]
 depends: [ "alt-ergo" ]
 substs: [
   "gen.ml"

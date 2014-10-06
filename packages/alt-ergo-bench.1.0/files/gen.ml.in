@@ -13,17 +13,17 @@ let install =
   String.concat "\n  "
     ("share: [" ::
      List.flatten
-       (List.map (fun f -> [mlw_file f; bench_file f]) files))
+       (List.map (fun f -> ["\"" ^ mlw_file f ^ "\"";
+                            "\"" ^ bench_file f ^ "\""]) files))
   ^ "\n]\n"
 
 let bench_content f =
   Printf.sprintf
     "((name alt-ergo-%s)\n \
-      (descr\n \
-      (\"Benchmark of ``alt-ergo %s''.\"))\n \
+      (descr (\"Benchmark of ``alt-ergo %s''.\"))\n \
       (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.mlw))\n \
-      (env ()) (speed Fast) (timeout 600)\n \
-      (topics ((Libperf Cycles))))\n"
+      (cmd_check ()) (env ()) (speed Fast) (timeout 600)\n \
+      (topics ((Libperf Cycles))))"
     f f f
 
 let output_file filename s =
