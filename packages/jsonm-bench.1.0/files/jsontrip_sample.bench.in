@@ -1,5 +1,5 @@
 ((name jsontrip_sample)
  (descr ("Benchmark of ``jsontrip sample.json''"))
  (cmd (%{bin}%/jsontrip %{json-bench-data:share}%/sample.json)) (cmd_check ())
- (env ()) (speed Fast) (timeout 600)
+ (env ()) (speed Fast) (timeout 600) (discard (Stdout))
  (topics ((Libperf Cycles))))
