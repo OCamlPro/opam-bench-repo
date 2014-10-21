@@ -1,5 +1,5 @@
 ((name "ydump_sample")
- (descr ("Benchmark of ``ydump -c sample.json''"))
- (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/sample.json)) (cmd_check ())
- (env ()) (speed Fast) (timeout 600) (discard (Stdout))
+ (descr "ydump -c sample.json")
+ (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/sample.json))
+(speed Fast) (discard (Stdout))
  (topics ((Libperf Cycles))))

@@ -1,8 +1,6 @@
 ((name sauvola-contrast-bench)
- (descr
-  ("Benchmark of ``sauvola-contrast-bench /home/vb/.opam/4.02.0+trunk/share/sauvola-bench/example2.jpg example2''"))
+ (descr "Benchmark of sauvola-contrast-bench")
  (cmd
   (%{bin}%/sauvola-contrast-bench
    %{sauvola-bench:share}%/example2.jpg example2))
- (cmd_check ()) (env ()) (speed Slow) (timeout 600)
- (topics ((Libperf Cycles))))
+ (speed Slow) (topics ((Libperf Cycles))))

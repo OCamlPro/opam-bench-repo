@@ -1,6 +1,5 @@
 ((name jsontrip_actionLabel)
- (descr
-  ("Benchmark of ``jsontrip actionLabel.json''"))
- (cmd (%{bin}%/jsontrip %{json-bench-data:share}%/actionLabel.json)) (cmd_check ())
- (env ()) (speed Fast) (timeout 600) (discard (Stdout))
+ (descr "jsontrip actionLabel.json")
+ (cmd (%{bin}%/jsontrip %{json-bench-data:share}%/actionLabel.json))
+ (speed Fast) (discard (Stdout))
  (topics ((Libperf Cycles))))

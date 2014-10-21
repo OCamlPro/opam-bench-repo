@@ -1,6 +1,5 @@
 ((name "ydump_actionLabel")
- (descr
-  ("Benchmark of ``ydump -c actionLabel.json''"))
- (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/actionLabel.json)) (cmd_check ())
- (env ()) (speed Fast) (timeout 600) (discard (Stdout))
+ (descr "ydump -c actionLabel.json")
+ (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/actionLabel.json))
+(speed Fast) (discard (Stdout))
  (topics ((Libperf Cycles))))

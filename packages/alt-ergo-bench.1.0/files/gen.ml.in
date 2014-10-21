@@ -20,10 +20,9 @@ let install =
 let bench_content f =
   Printf.sprintf
     "((name alt-ergo-%s)\n \
-      (descr (\"Benchmark of ``alt-ergo %s''.\"))\n \
+      (descr \"alt-ergo %s\")\n \
       (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.mlw))\n \
-      (cmd_check ()) (env ()) (speed Fast) (timeout 600)\n \
-      (topics ((Libperf Cycles))))"
+      (speed Fast) (topics ((Libperf Cycles))))"
     f f f
 
 let output_file filename s =
