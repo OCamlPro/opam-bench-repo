@@ -1,5 +1,4 @@
-((name "ydump_sample")
+((name "ydump-sample")
  (descr "ydump -c sample.json")
  (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/sample.json))
-(speed Fast) (discard (Stdout))
- (topics ((Libperf Cycles))))
+(speed Fast) (discard (Stdout)))

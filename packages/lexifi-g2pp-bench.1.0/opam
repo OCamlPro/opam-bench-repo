@@ -3,7 +3,7 @@ name: "lexifi-g2pp-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-build: [ make ]
+depends: [ "macrobenchmarks" ]
 substs: [
   "g2pp.bench"
 ]

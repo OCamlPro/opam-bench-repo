@@ -1,5 +1,4 @@
-((name jsontrip_actionLabel)
+((name jsontrip-actionLabel)
  (descr "jsontrip actionLabel.json")
  (cmd (%{bin}%/jsontrip %{json-bench-data:share}%/actionLabel.json))
- (speed Fast) (discard (Stdout))
- (topics ((Libperf Cycles))))
+ (speed Fast) (discard (Stdout)))

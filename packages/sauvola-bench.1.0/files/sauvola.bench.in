@@ -1,6 +1,6 @@
-((name sauvola-contrast-bench)
- (descr "Benchmark of sauvola-contrast-bench")
+((name sauvola-contrast)
+ (descr "sauvola image contrast enhancing")
  (cmd
-  (%{bin}%/sauvola-contrast-bench
-   %{sauvola-bench:share}%/example2.jpg example2))
- (speed Slow) (topics ((Libperf Cycles))))
+  (%{bin}%/sauvola-contrast
+   %{macrobenchmarks:share}%/example2_small.jpg example2))
+ (speed Slow))

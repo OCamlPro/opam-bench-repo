@@ -3,8 +3,7 @@ name: "sauvola-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-build: [ make ]
-depends: [ "camlimages" ]
+depends: [ "macrobenchmarks" ]
 substs: [
   "sauvola.bench"
 ]

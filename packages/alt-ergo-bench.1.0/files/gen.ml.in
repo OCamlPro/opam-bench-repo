@@ -22,7 +22,7 @@ let bench_content f =
     "((name alt-ergo-%s)\n \
       (descr \"alt-ergo %s\")\n \
       (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.mlw))\n \
-      (speed Fast) (topics ((Libperf Cycles))))"
+      (speed Fast))"
     f f f
 
 let output_file filename s =

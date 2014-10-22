@@ -1,5 +1,4 @@
-((name "ydump_actionLabel")
+((name "ydump-actionLabel")
  (descr "ydump -c actionLabel.json")
  (cmd (%{bin}%/ydump -c %{json-bench-data:share}%/actionLabel.json))
-(speed Fast) (discard (Stdout))
- (topics ((Libperf Cycles))))
+(speed Fast) (discard (Stdout)))

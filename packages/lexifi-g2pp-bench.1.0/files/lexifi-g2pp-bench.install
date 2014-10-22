@@ -1,6 +1,3 @@
-bin: [
-  "run.exe" {"g2pp"}
-]
 share: [
   "g2pp.bench"
 ]
