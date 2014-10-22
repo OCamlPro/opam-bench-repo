@@ -1,0 +1,6 @@
+share: [
+  "chameneos-th.bench"
+  "chameneos-evtchn.bench"
+  "chameneos-lwt.bench"
+  "chameneos-async.bench"
+]
