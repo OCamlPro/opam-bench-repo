@@ -1,0 +1,4 @@
+share: [
+  "valet_async.bench"
+  "valet_lwt.bench"
+]
