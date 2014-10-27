@@ -1,0 +1,13 @@
+opam-version: "1.2"
+name: "thread-bench"
+tags: [ "benchmark" ]
+version: "1.0"
+maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
+depends: [ "macrobenchmarks" ]
+substs: [
+  "thread_ring_async_pipe.bench"
+  "thread_ring_lwt_mvar.bench"
+  "thread_ring_lwt_stream.bench"
+  "thread_sleep_async.bench"
+  "thread_sleep_lwt.bench"
+]

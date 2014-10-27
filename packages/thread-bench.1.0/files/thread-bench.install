@@ -1,0 +1,7 @@
+share: [
+  "thread_ring_async_pipe.bench"
+  "thread_ring_lwt_mvar.bench"
+  "thread_ring_lwt_stream.bench"
+  "thread_sleep_async.bench"
+  "thread_sleep_lwt.bench"
+]
