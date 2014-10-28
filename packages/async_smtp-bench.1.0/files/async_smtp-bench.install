@@ -1,0 +1,3 @@
+share: [
+  "async_smtp.bench"
+]
