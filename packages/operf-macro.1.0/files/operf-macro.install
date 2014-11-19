@@ -1,0 +1,13 @@
+bin: [
+  "_build/src/injector.native" {"injector"}
+  "_build/src/macrorun.native" {"macrorun"} ]
+lib: [
+  "_build/lib/macroperf.a" {"macroperf.a"}
+  "_build/lib/macroperf.cma" {"macroperf.cma"}
+  "_build/lib/macroperf.cmi" {"macroperf.cmi"}
+  "?_build/lib/macroperf.cmti" {"macroperf.cmti"}
+  "_build/lib/macroperf.cmx" {"macroperf.cmx"}
+  "_build/lib/macroperf.cmxa" {"macroperf.cmxa"}
+  "_build/lib/macroperf.cmxs" {"macroperf.cmxs"}
+  "_build/lib/macroperf.mli" {"macroperf.mli"}
+  "_build/pkg/META" {"META"} ]
