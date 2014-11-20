@@ -1,0 +1,20 @@
+opam-version: "1.2"
+name: "all-bench"
+maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
+authors: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
+license: "GPLv2"
+
+depends: [
+  "alt-ergo-bench"
+  "async_smtp-bench"
+  "chameneos-bench"
+  "frama-c-bench"
+  "jsonm-bench"
+  "lexifi-g2pp-bench"
+  "patdiff-bench"
+  "sauvola-bench"
+  "thread-bench"
+  "valet-bench"
+  "yojson-bench"
+]
+
