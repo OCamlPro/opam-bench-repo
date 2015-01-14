@@ -10,4 +10,4 @@ license: "BSD3"
 build: [
   [ "./build" "setrip.native" ]
 ]
-depends: []
+depends: [ "ocamlfind" ]
