@@ -1,0 +1,9 @@
+opam-version: "1.2"
+name: "almabench"
+tags: [ "benchmark" ]
+version: "1.0"
+maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
+depends: [ "macrobenchmarks" ]
+substs: [
+  "almabench.bench"
+]

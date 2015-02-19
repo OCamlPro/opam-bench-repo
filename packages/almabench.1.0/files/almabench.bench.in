@@ -1,0 +1,3 @@
+((name almabench)
+ (descr "A number-crunching benchmark.")
+ (cmd (%{bin}%/almabench)) (speed Slow))

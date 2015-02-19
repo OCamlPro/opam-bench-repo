@@ -17,5 +17,6 @@ depends: [
   "valet-bench"
   "yojson-bench"
   "kb-bench"
+  "almabench"
 ]
 
