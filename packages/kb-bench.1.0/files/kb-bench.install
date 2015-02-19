@@ -1,0 +1,4 @@
+share: [
+  "kb.bench"
+  "kb-no-exc.bench"
+]

@@ -16,5 +16,6 @@ depends: [
   "thread-bench"
   "valet-bench"
   "yojson-bench"
+  "kb-bench"
 ]
 
