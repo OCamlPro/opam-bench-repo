@@ -18,5 +18,6 @@ depends: [
   "yojson-bench"
   "kb-bench"
   "almabench"
+  "bdd-bench"
 ]
 
