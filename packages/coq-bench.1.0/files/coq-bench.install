@@ -1,0 +1,4 @@
+share : [
+  "coqchk-int.bench"
+  "coqchk-parith.binpos.bench"
+]
