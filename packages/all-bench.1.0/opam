@@ -19,5 +19,7 @@ depends: [
   "kb-bench"
   "almabench"
   "bdd-bench"
+  "coq-bench"
+  "core-sequence-bench"
 ]
 
