@@ -21,5 +21,6 @@ depends: [
   "bdd-bench"
   "coq-bench"
   "core-sequence-bench"
+  "js_of_ocaml-bench"
 ]
 
