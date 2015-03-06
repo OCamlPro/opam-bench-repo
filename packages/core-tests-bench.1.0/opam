@@ -1,0 +1,9 @@
+opam-version: "1.2"
+name: "core-tests-bench"
+tags: [ "benchmark" ]
+version: "1.0"
+maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
+build: [ [make "-C" "core_tests"] ]
+depends: [
+  "core" { = "112.17.00" }
+]
