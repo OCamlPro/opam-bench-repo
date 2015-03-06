@@ -3,7 +3,7 @@ name: "bdd-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
-depends: [ "macrobenchmarks" ]
 substs: [
   "bdd.bench"
 ]
+build: [[make "-C" "bdd"]]
