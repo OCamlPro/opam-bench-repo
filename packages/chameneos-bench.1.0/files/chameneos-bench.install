@@ -1,8 +1,8 @@
 bin: [
   "chameneos-redux/chameneos_redux_th"
   "chameneos-redux/chameneos_redux_evtchn"
-  "?chameneos-redux/chameneos_redux_lwt"
-  "?chameneos-redux/chameneos_redux_async"
+  "chameneos-redux/chameneos_redux_lwt"
+  "chameneos-redux/chameneos_redux_async"
 ]
 
 share: [

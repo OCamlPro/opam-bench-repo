@@ -1,9 +1,9 @@
 bin: [
-  "?thread/thread_ring_async_pipe"
-  "?thread/thread_ring_lwt_mvar"
-  "?thread/thread_ring_lwt_stream"
-  "?thread/thread_sleep_async"
-  "?thread/thread_sleep_lwt"
+  "thread/thread_ring_async_pipe"
+  "thread/thread_ring_lwt_mvar"
+  "thread/thread_ring_lwt_stream"
+  "thread/thread_sleep_async"
+  "thread/thread_sleep_lwt"
 ]
 
 share: [
