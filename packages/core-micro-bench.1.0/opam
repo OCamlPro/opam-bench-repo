@@ -1,0 +1,13 @@
+opam-version: "1.2"
+name: "core-micro-bench"
+tags: [ "benchmark" ]
+version: "1.0"
+maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
+depends: [
+  "core_bench" { = "112.17.00" }
+  "core" { = "112.17.00" }
+]
+build: [ [make "-C" "core_micro"] ]
+substs: [
+  "core_micro.bench"
+]

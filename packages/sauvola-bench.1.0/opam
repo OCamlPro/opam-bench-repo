@@ -2,8 +2,9 @@ opam-version: "1.2"
 name: "sauvola-bench"
 tags: [ "benchmark" ]
 version: "1.0"
-maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-depends: [ "macrobenchmarks" ]
+maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
+build: [ [make "-C" "sauvola"] ]
+depends: [ "camlimages" ]
 substs: [
   "sauvola.bench"
 ]

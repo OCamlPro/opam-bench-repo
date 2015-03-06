@@ -1,0 +1,15 @@
+opam-version: "1.2"
+name: "async-echo-bench"
+tags: [ "benchmark" ]
+version: "1.0"
+maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
+depends: [
+  "async" { = "112.17.00" }
+  "core" { = "112.17.00" }
+]
+build: [ [make "-C" "async_echo"] ]
+substs: [
+  "async_echo_client.bench"
+  "async_echo_server.bench"
+  "async_echo_merge.bench"
+]

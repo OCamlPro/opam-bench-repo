@@ -2,5 +2,5 @@
  (descr "sauvola image contrast enhancing")
  (cmd
   (%{bin}%/sauvola-contrast
-   %{macrobenchmarks:share}%/example2_small.jpg example2))
+   %{sauvola-bench:share}%/example2_small.jpg example2))
  (speed Slow))
