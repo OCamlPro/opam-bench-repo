@@ -1,0 +1,8 @@
+bin: [
+  "sequence/test.native" {"sequence-bench"}
+  "sequence/test_cps.native" {"sequence-cps-bench"}
+]
+
+share: [
+  "sequence.bench"
+]
