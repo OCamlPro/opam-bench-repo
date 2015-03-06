@@ -5,4 +5,5 @@ bin: [
 
 share: [
   "sequence.bench"
+  "sequence_cps.bench"
 ]
