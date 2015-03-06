@@ -6,7 +6,9 @@ license: "GPLv2"
 
 depends: [
   "alt-ergo-bench"
-  "async_smtp-bench"
+  "async-echo-bench"
+  "core-micro-bench"
+  "async-rpc-bench"
   "chameneos-bench"
   "frama-c-bench"
   "jsonm-bench"
@@ -17,10 +19,13 @@ depends: [
   "valet-bench"
   "yojson-bench"
   "kb-bench"
-  "almabench"
+  "nb-codec-bench"
+  "almabench-bench"
   "bdd-bench"
   "coq-bench"
+  "cohttp-bench"
   "core-sequence-bench"
+  "sequence-bench"
   "js_of_ocaml-bench"
 ]
 
