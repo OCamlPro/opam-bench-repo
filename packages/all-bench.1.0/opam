@@ -19,7 +19,7 @@ depends: [
   "valet-bench"
   "yojson-bench"
   "kb-bench"
-  "nb-codec-bench"
+  "nbcodec-bench"
   "almabench-bench"
   "bdd-bench"
   "coq-bench"
