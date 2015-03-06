@@ -3,7 +3,7 @@ name: "kb-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
-depends: [ "macrobenchmarks" ]
+build: [ [make "-C" "kb"] ]
 substs: [
   "kb.bench"
   "kb-no-exc.bench"
