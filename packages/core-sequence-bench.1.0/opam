@@ -3,7 +3,9 @@ name: "core-sequence-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
-depends: [ "macrobenchmarks" ]
+depends: [
+  "core" { = "112.17.00"}
+]
 substs: [
   "core-sequence.bench"
   "core-sequence-cps.bench"
