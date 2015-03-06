@@ -3,7 +3,10 @@ name: "chameneos-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
-depends: [ "lwt" ]
+depends: [
+  "lwt" { = "2.4.7" }
+  "async" { = "112.17.00" }
+]
 build: [ [make "-C" "chameneos-redux"] ]
 substs: [
   "chameneos-th.bench"
