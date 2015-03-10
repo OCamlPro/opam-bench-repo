@@ -5,7 +5,5 @@ bin: [
 ]
 
 share: [
-  "async_echo_client.bench"
-  "async_echo_server.bench"
   "async_echo_merge.bench"
 ]

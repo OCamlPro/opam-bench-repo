@@ -9,7 +9,5 @@ depends: [
 ]
 build: [ [make "-C" "async_echo"] ]
 substs: [
-  "async_echo_client.bench"
-  "async_echo_server.bench"
   "async_echo_merge.bench"
 ]

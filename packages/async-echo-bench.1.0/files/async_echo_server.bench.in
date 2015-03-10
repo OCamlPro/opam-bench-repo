@@ -1,3 +1,0 @@
-((name async_echo_server)
- (descr "An async echo server benchmark.")
- (cmd (%{bin}%/async_echo_server_bench)) (speed Slow))
