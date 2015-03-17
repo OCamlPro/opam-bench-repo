@@ -38,7 +38,7 @@ let bench_content f =
   Printf.sprintf
     "((name alt-ergo-%s)\n \
       (descr \"alt-ergo %s\")\n \
-      (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.mlw))\n \
+      (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.why))\n \
       (speed Slow))"
     f f f
 
