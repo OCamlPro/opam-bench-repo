@@ -3,7 +3,7 @@ name: "coq-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
-depends: ["coq" {= "8.4.5" }]
+depends: ["coq" {= "8.4.6~camlp4" }]
 substs: [
   "coqchk-int.bench"
   "coqchk-parith.binpos.bench"
