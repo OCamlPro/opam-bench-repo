@@ -5,7 +5,7 @@ version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
 depends: [
   "uuidm" { = "0.9.5" }
-  "lwt" { = "2.4.7" }
+  "lwt" { = "2.4.8" }
   "async" { = "112.17.00" }
   "ocplib-endian" { = "0.8" }
   "react" { = "1.2.0" }
