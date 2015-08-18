@@ -27,5 +27,6 @@ depends: [
   "core-sequence-bench"
   "sequence-bench"
   "js_of_ocaml-bench"
+  "menhir-bench"
 ]
 
