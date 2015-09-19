@@ -1,0 +1,24 @@
+((name compcert-raytracer)
+ (descr "Benchmark of compcert on its raytracer test code")
+ (cmd
+  (%{bin}%/ccomp
+    -stdlib %{compcert:lib}%/
+    -fstruct-return
+    -lm
+    -I %{compcert-bench:share}%/raytracer
+    %{compcert-bench:share}%/raytracer/memory.c
+    %{compcert-bench:share}%/raytracer/gmllexer.c
+    %{compcert-bench:share}%/raytracer/gmlparser.c
+    %{compcert-bench:share}%/raytracer/eval.c
+    %{compcert-bench:share}%/raytracer/arrays.c
+    %{compcert-bench:share}%/raytracer/vector.c
+    %{compcert-bench:share}%/raytracer/matrix.c
+    %{compcert-bench:share}%/raytracer/object.c
+    %{compcert-bench:share}%/raytracer/intersect.c
+    %{compcert-bench:share}%/raytracer/surface.c
+    %{compcert-bench:share}%/raytracer/light.c
+    %{compcert-bench:share}%/raytracer/simplify.c
+    %{compcert-bench:share}%/raytracer/render.c
+    %{compcert-bench:share}%/raytracer/main.c
+  ))
+ (speed Slow))
