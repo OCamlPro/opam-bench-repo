@@ -4,7 +4,7 @@ tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
 depends: [
-  "lwt" { = "2.4.7" }
+  "lwt" { = "2.4.8" }
   "async" { = "112.17.00" }
 ]
 build: [ [make "-C" "thread"] ]

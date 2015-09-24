@@ -1,0 +1,6 @@
+share: [
+  "standard.mly"
+  "fancy-parser.mly"
+  "menhir_standard.bench"
+  "menhir_fancy.bench"
+]
