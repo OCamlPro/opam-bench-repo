@@ -1,0 +1,38 @@
+opam-version: "1.2"
+name: "numerical-analysis-bench"
+tags: [ "benchmark" ]
+version: "1.0"
+maintainer: "Louis Gesbert <louis.gesbert@ocamlpro.com>"
+author: [ "Ryohei Tokuda <nomaddojp362@gmail.com>"
+          "Akinori Abe <abe@sf.ecei.tohoku.ac.jp>" ]
+build: [
+  [ "ocamlopt.opt" "unix.cmxa" "durand-kerner-aberth/dka.ml"
+    "-o" "durand-kerner-aberth.opt" ]
+  [ "ocamlopt.opt" "unix.cmxa" "fft/fft.ml"
+    "-o" "fft.opt" ]
+#  [ "ocamlopt.opt" "unix.cmxa" "-I" "k-means" "k-means/dataset.ml" "k-means/kmeans.ml"
+#    "-o" "k-means.opt" ] -- couldn't compile, even on 4.02.3 (stack overflow!)
+  [ "ocamlopt.opt" "unix.cmxa" "-I" "levinson-durbin" "levinson-durbin/dataset.ml" "levinson-durbin/levinson.ml"
+    "-o" "levinson-durbin.opt" ]
+  [ "ocamlopt.opt" "unix.cmxa" "lu-decomposition/lu.ml"
+    "-o" "lu-decomposition.opt" ]
+  [ "ocamlopt.opt" "unix.cmxa" "-I" "naive-multilayer" "naive-multilayer/dataset.ml" "naive-multilayer/neuralNetwork.ml"
+    "-o" "naive-multilayer.opt" ]
+  [ "ocamlopt.opt" "unix.cmxa" "qr-decomposition/qr.ml"
+    "-o" "qr-decomposition.opt" ]
+  [ "ocamlopt.opt" "unix.cmxa" "rnd_access/rnd.ml"
+    "-o" "rnd_access.opt" ]
+  [ "ocamlopt.opt" "unix.cmxa" "-I" "simple_access" "simple_access/a.ml" "simple_access/b.ml"
+    "-o" "simple_access.opt" ]
+]
+substs: [
+  "durand-kerner-aberth.bench"
+  "fft.bench"
+  "k-means.bench"
+  "levinson-durbin.bench"
+  "lu-decomposition.bench"
+  "naive-multilayer.bench"
+  "qr-decomposition.bench"
+  "rnd_access.bench"
+  "simple_access.bench"
+]
