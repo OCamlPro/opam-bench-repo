@@ -1,4 +1,4 @@
 ((name menhir-standard)
  (descr "menhir standard.mly")
- (cmd (%{bin}%/menhir %{menhir-bench:share}%/standard.mly))
+ (cmd (%{bin}%/menhir %{menhir-bench:share}%/yacc-parser.mly))
  (speed Fast) (discard (Stdout)))

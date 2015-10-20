@@ -3,6 +3,6 @@ tags: [ "benchmark" ]
 maintainer: "Louis Gesbert <louis.gesbert@ocamlpro.com>"
 depends: [ "menhir" ]
 substs: [
-  "menhir_standard.bench"
+  "menhir_yacc.bench"
   "menhir_fancy.bench"
 ]
