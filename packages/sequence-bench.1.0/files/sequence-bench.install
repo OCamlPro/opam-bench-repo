@@ -1,6 +1,6 @@
 bin: [
-  "sequence/test.native" {"sequence-bench"}
-  "sequence/test_cps.native" {"sequence-cps-bench"}
+  "sequence/test.native" {"ocp-sequence-bench"}
+  "sequence/test_cps.native" {"ocp-sequence-cps-bench"}
 ]
 
 share: [
