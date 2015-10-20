@@ -34,8 +34,8 @@
 
 
 
-#include "share/libc/stdio.h"
-#include "share/math.h"
+#include <stdio.h>
+#include "../math.h"
 
 
 
