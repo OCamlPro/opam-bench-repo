@@ -28,6 +28,8 @@ depends: [
   "sequence-bench"
   "js_of_ocaml-bench"
   "menhir-bench"
+  "compcert-bench"
+  "minilight-bench"
   "numerical-analysis-bench"
 ]
 
