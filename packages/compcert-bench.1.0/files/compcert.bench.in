@@ -2,6 +2,7 @@
  (descr "Benchmark of compcert on its raytracer test code")
  (cmd
   (%{bin}%/ccomp
+    -c
     -stdlib %{compcert:lib}%/
     -fstruct-return
     -lm
