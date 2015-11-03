@@ -1,6 +1,8 @@
 share: [
   "yacc-parser.mly"
   "fancy-parser.mly"
+  "yacc-output.ml"
+  "fancy-output.ml"
   "menhir_yacc.bench"
   "menhir_fancy.bench"
 ]
