@@ -5,5 +5,5 @@ version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
 build: [ [make "-C" "almabench"] ]
 substs: [
-  "almabench.bench"
+  "almabench-bench.bench"
 ]

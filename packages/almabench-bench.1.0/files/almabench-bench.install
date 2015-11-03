@@ -3,5 +3,6 @@ bin: [
 ]
 
 share: [
-  "almabench.bench"
+  "almabench-bench.bench"
+  "almabench-bench.output"
 ]
