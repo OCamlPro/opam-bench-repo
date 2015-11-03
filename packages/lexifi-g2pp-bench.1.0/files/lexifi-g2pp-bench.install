@@ -3,5 +3,6 @@ bin: [
 ]
 
 share: [
-  "g2pp.bench"
+  "lexifi-g2pp.bench"
+  "lexifi-g2pp-bench.output"
 ]

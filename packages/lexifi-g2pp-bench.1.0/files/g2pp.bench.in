@@ -1,3 +1,0 @@
-((name g2pp)
- (descr "A simplified and stripped down version of LexiFi's calibration routine for the G2++ model.")
- (cmd (%{bin}%/lexifi-g2pp)) (speed Slow))
