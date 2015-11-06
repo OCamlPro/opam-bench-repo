@@ -5,5 +5,5 @@ version: "1.0"
 maintainer: "Pierre Chambart <pierre.chambart@ocamlpro.com>"
 build: [ [make "-C" "lexifi-g2pp"] ]
 substs: [
-  "g2pp.bench"
+  "lexifi-g2pp.bench"
 ]

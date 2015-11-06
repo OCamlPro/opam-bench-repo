@@ -32,15 +32,17 @@ let install =
      List.flatten
        (List.map (fun f -> ["\"" ^ mlw_file f ^ "\"";
                             "\"" ^ bench_file f ^ "\""]) files))
+  ^ "\n  \"check.ml\""
   ^ "\n]\n"
 
 let bench_content f =
   Printf.sprintf
     "((name alt-ergo-%s)\n \
       (descr \"alt-ergo %s\")\n \
-      (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.why))\n \
-      (speed Slow))"
-    f f f
+      (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.why)) (speed Slow)\n \
+      (cmd_check (ocaml %{share}%/alt-ergo-bench/check.ml alt-ergo-%s Valid \
+     %{switch}% $MACRODIR$))\n)"
+    f f f f
 
 let output_file filename s =
   let oc = open_out filename in
