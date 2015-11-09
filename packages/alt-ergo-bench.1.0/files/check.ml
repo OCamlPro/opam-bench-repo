@@ -15,7 +15,7 @@ let _ =
         Scanf.sscanf output_str "File %S, line %i, characters %i-%i:Valid (%f) (%i)"
           (fun _ _ _ _ _ _ -> close_in ic)
       else 
-        Scanf.sscanf output_str "File %S, line %i, characters %i-%i:unknown (%f) (%i)"
-          (fun _ _ _ _ _ _ -> close_in ic)
+        Scanf.sscanf output_str "File %S, line %i, characters %i-%i:I don't know."
+          (fun _ _ _ _ -> close_in ic)
     with _ -> (close_in ic; exit 1)
 

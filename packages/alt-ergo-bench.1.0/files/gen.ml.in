@@ -36,13 +36,25 @@ let install =
   ^ "\n]\n"
 
 let bench_content f =
-  Printf.sprintf
+  match f with
+  | "00195___fib__package-T-WP_parameter_def"
+  | "02182___why_3f7a7d_inverse_in_place-T-WP_parameter_inverse_in_place"
+  | "01201___flight_manager__package-T-WP_parameter_def" ->
+    Printf.sprintf
     "((name alt-ergo-%s)\n \
-      (descr \"alt-ergo %s\")\n \
-      (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.why)) (speed Slow)\n \
-      (cmd_check (ocaml %{share}%/alt-ergo-bench/check.ml alt-ergo-%s Valid \
-     %{switch}% $MACRODIR$))\n)"
-    f f f f
+       (descr \"alt-ergo %s\")\n \
+       (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.why)) (speed Slow)\n \
+       (cmd_check (ocaml %{share}%/alt-ergo-bench/check.ml alt-ergo-%s NotValid \
+       %{switch}% $MACRODIR$))\n)"
+      f f f f
+  | _ ->
+    Printf.sprintf
+      "((name alt-ergo-%s)\n \
+       (descr \"alt-ergo %s\")\n \
+       (cmd (%{bin}%/alt-ergo %{share}%/alt-ergo-bench/%s.why)) (speed Slow)\n \
+       (cmd_check (ocaml %{share}%/alt-ergo-bench/check.ml alt-ergo-%s Valid \
+       %{switch}% $MACRODIR$))\n)"
+      f f f f
 
 let output_file filename s =
   let oc = open_out filename in
