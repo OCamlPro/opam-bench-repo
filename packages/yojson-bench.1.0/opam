@@ -4,6 +4,7 @@ tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
 depends: [ "yojson" "json-bench-data"]
+build: [ [make "-C" "yojson"] ]
 substs: [
   "ydump_actionLabel.bench"
   "ydump_sample.bench"
