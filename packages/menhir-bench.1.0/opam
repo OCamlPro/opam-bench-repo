@@ -5,4 +5,5 @@ depends: [ "menhir" ]
 substs: [
   "menhir_yacc.bench"
   "menhir_fancy.bench"
+  "menhir_sql.bench"
 ]
