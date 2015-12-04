@@ -31,5 +31,6 @@ depends: [
   "compcert-bench"
   "minilight-bench"
   "numerical-analysis-bench"
+  "cpdf-bench"
 ]
 

@@ -1,0 +1,10 @@
+opam-version: "1.2"
+tags: [ "benchmark" ]
+maintainer: "Louis Gesbert <louis.gesbert@ocamlpro.com>"
+depends: "cpdf"
+substs: [
+  "cpdf-merge.bench"
+  "cpdf-reformat.bench"
+  "cpdf-squeeze.bench"
+  "cpdf-transform.bench"
+]
