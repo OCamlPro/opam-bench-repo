@@ -3,4 +3,5 @@
  (cmd
   (%{bin}%/sauvola-contrast
    %{sauvola-bench:share}%/example2_small.jpg example2))
+ (discard (Stdout))
  (speed Slow))
