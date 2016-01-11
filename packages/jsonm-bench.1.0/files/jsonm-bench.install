@@ -1,4 +1,3 @@
 share: [
-  "jsontrip_actionLabel.bench"
   "jsontrip_sample.bench"
 ]
