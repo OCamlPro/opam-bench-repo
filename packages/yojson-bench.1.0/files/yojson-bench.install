@@ -3,6 +3,5 @@ bin: [
 ]
 
 share: [
-  "ydump_actionLabel.bench"
   "ydump_sample.bench"
 ]
