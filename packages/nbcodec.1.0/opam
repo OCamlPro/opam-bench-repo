@@ -1,4 +1,4 @@
-opam-version: "1.2"
+opam-version: "2.0"
 name: "nbcodec"
 version: "1.0"
 maintainer: "Vincent Bernardoff <vb@luminar.eu.org>"
@@ -10,4 +10,5 @@ license: "BSD3"
 build: [
   [ "./build" "setrip.native" ]
 ]
-depends: [ "ocamlfind" ]
+depends: ["ocaml" "ocamlfind"]
+flags: light-uninstall

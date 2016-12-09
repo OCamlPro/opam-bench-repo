@@ -1,7 +1,7 @@
-opam-version: "1.2"
+opam-version: "2.0"
 name: "json-bench-data"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Vincent Bernardoff <vincent.bernardoff@ocamlpro.com>"
-depends: [ ]
-
+depends: ["ocaml"]
+flags: light-uninstall

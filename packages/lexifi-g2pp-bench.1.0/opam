@@ -1,4 +1,4 @@
-opam-version: "1.2"
+opam-version: "2.0"
 name: "lexifi-g2pp-bench"
 tags: [ "benchmark" ]
 version: "1.0"
@@ -7,3 +7,5 @@ build: [ [make "-C" "lexifi-g2pp"] ]
 substs: [
   "lexifi-g2pp.bench"
 ]
+depends: ["ocaml"]
+flags: light-uninstall

@@ -1,10 +1,8 @@
-opam-version: "1.2"
+opam-version: "2.0"
 name: "numerical-analysis-bench"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Louis Gesbert <louis.gesbert@ocamlpro.com>"
-author: [ "Ryohei Tokuda <nomaddojp362@gmail.com>"
-          "Akinori Abe <abe@sf.ecei.tohoku.ac.jp>" ]
 build: make
 substs: [
   "durand-kerner-aberth.bench"
@@ -17,3 +15,9 @@ substs: [
   "rnd_access.bench"
   "simple_access.bench"
 ]
+authors: [
+  "Ryohei Tokuda <nomaddojp362@gmail.com>"
+  "Akinori Abe <abe@sf.ecei.tohoku.ac.jp>"
+]
+depends: ["ocaml"]
+flags: light-uninstall

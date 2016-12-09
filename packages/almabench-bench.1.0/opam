@@ -1,4 +1,4 @@
-opam-version: "1.2"
+opam-version: "2.0"
 name: "almabench-bench"
 tags: [ "benchmark" ]
 version: "1.0"
@@ -7,3 +7,5 @@ build: [ [make "-C" "almabench"] ]
 substs: [
   "almabench-bench.bench"
 ]
+depends: ["ocaml"]
+flags: light-uninstall

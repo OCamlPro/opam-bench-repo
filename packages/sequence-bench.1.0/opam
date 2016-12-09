@@ -1,4 +1,4 @@
-opam-version: "1.2"
+opam-version: "2.0"
 name: "sequence-bench"
 tags: [ "benchmark" ]
 version: "1.0"
@@ -8,3 +8,5 @@ substs: [
   "sequence.bench"
   "sequence_cps.bench"
 ]
+depends: ["ocaml"]
+flags: light-uninstall

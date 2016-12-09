@@ -1,6 +1,7 @@
-opam-version: "1.2"
+opam-version: "2.0"
 tags: [ "benchmark" ]
 version: "1.0"
 maintainer: "Louis Gesbert <louis.gesbert@ocamlpro.com>"
 substs: "compcert.bench"
-depends: "compcert"
+depends: ["ocaml" "compcert"]
+flags: light-uninstall
